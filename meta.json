@@ -1,0 +1,285 @@
+{
+ "id": "1510f28517073d96",
+ "historyId": "34861",
+ "messages": [
+  {
+   "id": "1510f28517073d96",
+   "threadId": "1510f28517073d96",
+   "labelIds": [
+    "SENT",
+    "IMPORTANT"
+   ],
+   "snippet": "Test",
+   "historyId": "34789",
+   "internalDate": "1447658278000",
+   "payload": {
+    "mimeType": "multipart/alternative",
+    "headers": [
+     {
+      "name": "MIME-Version",
+      "value": "1.0"
+     },
+     {
+      "name": "Received",
+      "value": "by 10.28.222.7 with HTTP; Sun, 15 Nov 2015 23:17:58 -0800 (PST)"
+     },
+     {
+      "name": "Received",
+      "value": "by 10.28.222.7 with HTTP; Sun, 15 Nov 2015 23:17:58 -0800 (PST)"
+     },
+     {
+      "name": "Date",
+      "value": "Mon, 16 Nov 2015 14:17:58 +0700"
+     },
+     {
+      "name": "Delivered-To",
+      "value": "ptt@mail4.work"
+     },
+     {
+      "name": "Message-ID",
+      "value": "\u003cCABWFXt=2wgr2+0Ertfxi-KAY0ufTOtfyX=20YwNzKa+cpKpUig@mail.gmail.com\u003e"
+     },
+     {
+      "name": "Subject",
+      "value": "Test"
+     },
+     {
+      "name": "From",
+      "value": "Pham Thanh \u003cptt@mail4.work\u003e"
+     },
+     {
+      "name": "To",
+      "value": "Thanh Pham \u003cmyway.ptt@gmail.com\u003e"
+     },
+     {
+      "name": "Content-Type",
+      "value": "multipart/alternative; boundary=001a114b30ba792c2b0524a33548"
+     }
+    ]
+   },
+   "sizeEstimate": 700
+  },
+  {
+   "id": "1510f28d705ffe7b",
+   "threadId": "1510f28517073d96",
+   "labelIds": [
+    "INBOX",
+    "IMPORTANT",
+    "CATEGORY_PERSONAL"
+   ],
+   "snippet": "Uhm ok nhe On Nov 16, 2015 2:17 PM, &quot;Pham Thanh&quot; &lt;ptt@mail4.work&gt; wrote: Test",
+   "historyId": "34796",
+   "internalDate": "1447658313000",
+   "payload": {
+    "mimeType": "multipart/alternative",
+    "headers": [
+     {
+      "name": "Delivered-To",
+      "value": "ptt@mail4.work"
+     },
+     {
+      "name": "Received",
+      "value": "by 10.28.41.7 with SMTP id p7csp2174953wmp;        Sun, 15 Nov 2015 23:18:33 -0800 (PST)"
+     },
+     {
+      "name": "X-Received",
+      "value": "by 10.140.97.10 with SMTP id l10mr34202191qge.84.1447658313596;        Sun, 15 Nov 2015 23:18:33 -0800 (PST)"
+     },
+     {
+      "name": "Return-Path",
+      "value": "\u003cmyway.ptt@gmail.com\u003e"
+     },
+     {
+      "name": "Received",
+      "value": "from mail-qk0-x236.google.com (mail-qk0-x236.google.com. [2607:f8b0:400d:c09::236])        by mx.google.com with ESMTPS id v188si17028704qhb.102.2015.11.15.23.18.33        for \u003cptt@mail4.work\u003e        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);        Sun, 15 Nov 2015 23:18:33 -0800 (PST)"
+     },
+     {
+      "name": "Received-SPF",
+      "value": "pass (google.com: domain of myway.ptt@gmail.com designates 2607:f8b0:400d:c09::236 as permitted sender) client-ip=2607:f8b0:400d:c09::236;"
+     },
+     {
+      "name": "Authentication-Results",
+      "value": "mx.google.com;       spf=pass (google.com: domain of myway.ptt@gmail.com designates 2607:f8b0:400d:c09::236 as permitted sender) smtp.mailfrom=myway.ptt@gmail.com;       dkim=pass header.i=@gmail.com;       dmarc=pass (p=NONE dis=NONE) header.from=gmail.com"
+     },
+     {
+      "name": "Received",
+      "value": "by qkda6 with SMTP id a6so29954660qkd.3        for \u003cptt@mail4.work\u003e; Sun, 15 Nov 2015 23:18:33 -0800 (PST)"
+     },
+     {
+      "name": "DKIM-Signature",
+      "value": "v=1; a=rsa-sha256; c=relaxed/relaxed;        d=gmail.com; s=20120113;        h=mime-version:in-reply-to:references:date:message-id:subject:from:to         :content-type;        bh=numLuj/L2NpFv46X2/M9ZIjPoy1JbhZWVDXEZ93vqzU=;        b=GoY64QBNfkAm2yQLvbDGyWuIyMAldoFXfBOIe899LxGBAJ4bVLQVciDSLIBs3ZOVV/         9GUrgmpFYkSGSrRKcy9k2OP2rJib4BOFoDyc8YR4mN+05P/Or1VOcN1quWFuIseQ2Yan         01zDvxVeRliTQW5yWPt36GHQJni4P1ucXGEjbx0oafsoKx+mlqHm21sMR1UO77JfKDf+         pKrQXJUdroZ7XK6vxilO3WlJztywJOsVx861/o6lrJ7rtXgc2hp7F1y10HH1ROfIOqsd         ULhepmQtsLLYX7pIMxW9CJflwCpc3pmv+dqn0RG53oj82OgBGgNXLwEfIY8jgt4z99FD         Zx+Q=="
+     },
+     {
+      "name": "MIME-Version",
+      "value": "1.0"
+     },
+     {
+      "name": "X-Received",
+      "value": "by 10.55.75.21 with SMTP id y21mr34951683qka.2.1447658313392; Sun, 15 Nov 2015 23:18:33 -0800 (PST)"
+     },
+     {
+      "name": "Received",
+      "value": "by 10.140.92.204 with HTTP; Sun, 15 Nov 2015 23:18:33 -0800 (PST)"
+     },
+     {
+      "name": "Received",
+      "value": "by 10.140.92.204 with HTTP; Sun, 15 Nov 2015 23:18:33 -0800 (PST)"
+     },
+     {
+      "name": "In-Reply-To",
+      "value": "\u003cCABWFXt=2wgr2+0Ertfxi-KAY0ufTOtfyX=20YwNzKa+cpKpUig@mail.gmail.com\u003e"
+     },
+     {
+      "name": "References",
+      "value": "\u003cCABWFXt=2wgr2+0Ertfxi-KAY0ufTOtfyX=20YwNzKa+cpKpUig@mail.gmail.com\u003e"
+     },
+     {
+      "name": "Date",
+      "value": "Mon, 16 Nov 2015 14:18:33 +0700"
+     },
+     {
+      "name": "Message-ID",
+      "value": "\u003cCAEMx8CTH8NbD-QZrBU0Bz6F8J3U046KU0hurK+JxhsHVs0GHUg@mail.gmail.com\u003e"
+     },
+     {
+      "name": "Subject",
+      "value": "Re: Test"
+     },
+     {
+      "name": "From",
+      "value": "Thanh Pham \u003cmyway.ptt@gmail.com\u003e"
+     },
+     {
+      "name": "To",
+      "value": "Pham Thanh \u003cptt@mail4.work\u003e"
+     },
+     {
+      "name": "Content-Type",
+      "value": "multipart/alternative; boundary=001a114a6a7a86aa760524a33790"
+     }
+    ]
+   },
+   "sizeEstimate": 3167
+  },
+  {
+   "id": "1510f2aeb505ffbb",
+   "threadId": "1510f28517073d96",
+   "labelIds": [
+    "SENT"
+   ],
+   "snippet": "eo hieu 2015-11-16 14:18 GMT+07:00 Thanh Pham &lt;myway.ptt@gmail.com&gt;: Uhm ok nhe On Nov 16, 2015",
+   "historyId": "34845",
+   "internalDate": "1447658449000",
+   "payload": {
+    "mimeType": "multipart/alternative",
+    "headers": [
+     {
+      "name": "MIME-Version",
+      "value": "1.0"
+     },
+     {
+      "name": "Received",
+      "value": "by 10.28.222.7 with HTTP; Sun, 15 Nov 2015 23:20:49 -0800 (PST)"
+     },
+     {
+      "name": "In-Reply-To",
+      "value": "\u003cCAEMx8CTH8NbD-QZrBU0Bz6F8J3U046KU0hurK+JxhsHVs0GHUg@mail.gmail.com\u003e"
+     },
+     {
+      "name": "References",
+      "value": "\u003cCABWFXt=2wgr2+0Ertfxi-KAY0ufTOtfyX=20YwNzKa+cpKpUig@mail.gmail.com\u003e \u003cCAEMx8CTH8NbD-QZrBU0Bz6F8J3U046KU0hurK+JxhsHVs0GHUg@mail.gmail.com\u003e"
+     },
+     {
+      "name": "Date",
+      "value": "Mon, 16 Nov 2015 14:20:49 +0700"
+     },
+     {
+      "name": "Delivered-To",
+      "value": "ptt@mail4.work"
+     },
+     {
+      "name": "Message-ID",
+      "value": "\u003cCABWFXtmcwzYr=qeTYn7gKtvKjmAbmGdUCyccv+_jkrCgFJ_W-w@mail.gmail.com\u003e"
+     },
+     {
+      "name": "Subject",
+      "value": "Re: Test"
+     },
+     {
+      "name": "From",
+      "value": "Pham Thanh \u003cptt@mail4.work\u003e"
+     },
+     {
+      "name": "To",
+      "value": "Thanh Pham \u003cmyway.ptt@gmail.com\u003e"
+     },
+     {
+      "name": "Content-Type",
+      "value": "multipart/alternative; boundary=001a114007fca827800524a33f67"
+     }
+    ]
+   },
+   "sizeEstimate": 1771
+  },
+  {
+   "id": "1510f37eecbfc1ef",
+   "threadId": "1510f28517073d96",
+   "labelIds": [
+    "SENT"
+   ],
+   "snippet": "hii 2015-11-16 14:20 GMT+07:00 Pham Thanh &lt;ptt@mail4.work&gt;: eo hieu 2015-11-16 14:18 GMT+07:00",
+   "historyId": "34861",
+   "internalDate": "1447659302000",
+   "payload": {
+    "mimeType": "multipart/mixed",
+    "headers": [
+     {
+      "name": "MIME-Version",
+      "value": "1.0"
+     },
+     {
+      "name": "Received",
+      "value": "by 10.28.49.194 with HTTP; Sun, 15 Nov 2015 23:35:02 -0800 (PST)"
+     },
+     {
+      "name": "In-Reply-To",
+      "value": "\u003cCABWFXtmcwzYr=qeTYn7gKtvKjmAbmGdUCyccv+_jkrCgFJ_W-w@mail.gmail.com\u003e"
+     },
+     {
+      "name": "References",
+      "value": "\u003cCABWFXt=2wgr2+0Ertfxi-KAY0ufTOtfyX=20YwNzKa+cpKpUig@mail.gmail.com\u003e \u003cCAEMx8CTH8NbD-QZrBU0Bz6F8J3U046KU0hurK+JxhsHVs0GHUg@mail.gmail.com\u003e \u003cCABWFXtmcwzYr=qeTYn7gKtvKjmAbmGdUCyccv+_jkrCgFJ_W-w@mail.gmail.com\u003e"
+     },
+     {
+      "name": "Date",
+      "value": "Mon, 16 Nov 2015 14:35:02 +0700"
+     },
+     {
+      "name": "Delivered-To",
+      "value": "ptt@mail4.work"
+     },
+     {
+      "name": "Message-ID",
+      "value": "\u003cCABWFXtmnAV9r8QDuL+jhrF=C4UP2FMd29rOmA08T5kBwMxupbQ@mail.gmail.com\u003e"
+     },
+     {
+      "name": "Subject",
+      "value": "Re: Test"
+     },
+     {
+      "name": "From",
+      "value": "Pham Thanh \u003cptt@mail4.work\u003e"
+     },
+     {
+      "name": "To",
+      "value": "Thanh Pham \u003cmyway.ptt@gmail.com\u003e"
+     },
+     {
+      "name": "Content-Type",
+      "value": "multipart/mixed; boundary=001a1148f8de8171c00524a372d9"
+     }
+    ]
+   },
+   "sizeEstimate": 2124095
+  }
+ ]
+}
